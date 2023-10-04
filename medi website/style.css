@@ -1,0 +1,139 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Lora", serif;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  border: 12px solid #fc569a;
+  margin-bottom: 2rem;
+}
+
+.navbar {
+  width: 100%;
+  height: 13%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.first {
+  width: 40%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.nav-items {
+  display: flex;
+  gap: 2rem;
+}
+
+a {
+  text-decoration: none;
+  color: #1b0a42;
+  font-weight: 400;
+  font-size: 14px;
+  font-family: "Roboto", sans-serif;
+}
+
+.second {
+  display: flex;
+  align-items: center;
+  gap: 4rem;
+  margin-right: 5rem;
+}
+
+.signup-btn {
+  font-weight: 400;
+  font-size: 14px;
+  border: none;
+  color: #ffffff;
+  background-color: #fc569a;
+  padding: 12px 16px;
+  border-radius: 6px;
+}
+
+.hero-section {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(255, 255, 255);
+  padding: 0px 150px;
+  margin-left: 6rem;
+}
+
+.right img {
+  width: 700px;
+}
+
+.left h1 {
+  font-size: 40px;
+  letter-spacing: 2px;
+  margin: 15px 0px;
+  font-weight: 400;
+  font-family: serif;
+  color: #1b0a42;
+}
+
+.left p {
+  font-size: 15px;
+  margin: 10px 0px;
+  margin-bottom: 40px;
+  font-family: "Roboto", sans-serif;
+  color: #9a9a9a;
+}
+
+.left-btn {
+  font-weight: 400;
+  font-size: 14px;
+  border: none;
+  color: #ffffff;
+  background-color: #fc569a;
+  padding: 14px 19px;
+  border-radius: 6px;
+}
+
+.frame2 {
+  margin-top: -2.7rem;
+}
+
+.frame2-btn {
+  background-color: #4f56f1;
+}
+
+.frame2-border {
+  border: 12px solid #4f56f1;
+}
+
+.frame3-btn {
+  background-color: #824ff1;
+}
+
+.frame3-border {
+  border: 12px solid #824ff1;
+}
+
+.frame4-btn {
+  background-color: #a3dc00;
+}
+
+.frame4-border {
+  border: 12px solid #a3dc00;
+}
+
+.frame5-btn {
+  background-color: #33a2e0;
+}
+
+.frame5-border {
+  border: 12px solid #33a2e0;
+}
